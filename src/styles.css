@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: white ;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .inputarea{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 20px;
+
+  }
+  input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-style: italic;
+  }
+  .form {
+    max-width: 330px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(221, 140, 221);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .form .form__custom-button {
+    margin-top: 50px;
+  }
+  
